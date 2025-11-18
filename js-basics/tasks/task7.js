@@ -4,8 +4,12 @@
 // TODO: Use a loop to iterate through the array and sum all numbers
 // TODO: Return the total sum
 
-// function sumArray(arr) {
-//   // Your code here using a for loop or for...of loop
-// }
+export function sumArray(arr) {
+  let total = 0;
+  for (i = 0; i < arr.length; i++) {
+    total += arr[i];
+  }
+  return total;
+}
 
 // TODO: Export the sumArray function
