@@ -1,9 +1,12 @@
 // Task 3: Write a function add(a, b) that returns the sum of a and b.
 
 // TODO: Create a function called 'add' that takes two parameters (a, b)
+function add(a, b) {
 // TODO: Return the sum of a and b
+return a + b;
+}
 // function add(a, b) {
-//   // Your code here
+module.exports = { add };
 // }
 
 
