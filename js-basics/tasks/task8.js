@@ -4,8 +4,15 @@
 // TODO: Calculate and return the factorial of n (n! = n × (n-1) × (n-2) × ... × 1)
 // TODO: Remember that 0! = 1 and 1! = 1
 
-// function factorial(n) {
-//   // Your code here using a loop or recursion
-// }
+ function factorial(n) {
+    if(n<0){
+        return "invalid number!";
+    }else if(n==0 || n==1){
+        return 1;
+    }else{
+        return n*factorial(n-1);
+    }
+ }
 
 // TODO: Export the factorial function
+module.exports = {factorial};

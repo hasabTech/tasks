@@ -7,5 +7,5 @@
 // module.exports = { name };
 
 // Example (uncomment and modify):
-// const name = "Shameel Uddin";
-// module.exports = { name };
+ const name = "Uswah Abdul Aziz";
+ module.exports = { name };
