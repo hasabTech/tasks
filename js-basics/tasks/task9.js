@@ -9,3 +9,25 @@
 // }
 
 // TODO: Export the findMax function
+
+ function findMax(arr) {
+
+    if(!Array.isArray(arr)|| arr.length===0){
+        return undefined;
+
+    }
+    
+    let Max=arr[0];
+    for(let i=1;i<arr.length;i++){
+        if(arr[i]>Max){
+            Max= arr[i];
+        }
+
+    }
+     return Max;
+    
+}
+
+ module.exports = {findMax};
+
+

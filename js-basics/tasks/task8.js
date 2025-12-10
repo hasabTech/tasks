@@ -9,3 +9,19 @@
 // }
 
 // TODO: Export the factorial function
+
+ function factorial(n) {
+
+    n=Math.trunc(Number(Math.abs(n)));
+    if(!n || n===0 || n===1){
+        return 1;
+    }
+     let factorialsum =1;
+    for(i= 2;i <=n;i++){
+       
+        factorialsum =  factorialsum * i;
+    }
+    return  factorialsum;
+ }
+
+ module.exports = { factorial};

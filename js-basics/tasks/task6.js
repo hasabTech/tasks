@@ -8,3 +8,17 @@
 // }
 
 // TODO: Export the isAdult function
+
+function isAdult(age) {
+    //age=Math.trunc(Number(age));
+    if(age >=18){
+        return "Adult";
+    }
+    else (age >0 && age<18)
+        return "Minor";
+    
+   
+
+ }
+
+ module.exports = { isAdult};

@@ -9,3 +9,20 @@
 // }
 
 // TODO: Export the sumArray function
+
+
+function sumArray(arr) {
+   
+    if (!arr || arr.length === 0) {
+        return 0;
+    }
+    
+    let sum = 0;
+    for(i = 0; i < arr.length; i++) {
+        sum = sum + arr[i];
+    }
+    
+    return sum;
+}
+
+module.exports = { sumArray };
