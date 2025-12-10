@@ -9,3 +9,15 @@
 // }
 
 // TODO: Export the countProperties function
+
+function countProperties(obj) {
+    if( !obj || obj.length===0){
+        return undefined;
+    }
+
+    keys = Object.keys(obj);
+    return keys.length;
+
+}
+
+module.exports = {countProperties};
